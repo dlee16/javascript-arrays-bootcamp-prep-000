@@ -4,8 +4,6 @@ function addElementToBeginningOfArray(array,element){
   [`${element}`,...`${array}`]
 }
 
-function destructivelyAddElementToBeginningOfArray(a,b){
-  var chocolate= ["snickers","hundred grand","kitkat"]
-  chocolate.unshift("hershey")
-  return chocolate;
+function destructivelyAddElementToBeginningOfArray(array,element){
+  `${array}`.unshift(`${element}`)
 }
